@@ -1,4 +1,8 @@
-﻿using System;
+/*quinn parker-joyes
+may 30 2019
+ics4u
+add coins*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

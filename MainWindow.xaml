@@ -1,0 +1,18 @@
+﻿<Window x:Class="u5AddCoins.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:u5AddCoins"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox x:Name="txtTwo"/>
+        <TextBox x:Name="txtLoonies"/>
+        <TextBox x:Name="txtQuarters"/>
+        <TextBox x:Name="txtDime"/>
+        <TextBox x:Name="txtNickel"/>
+        <Button x:Name="btnCalculate" Content="button" Click="btnCalculate_Click"/>
+        <Label x:Name="lblOutput"/>
+    </StackPanel>
+</Window>
